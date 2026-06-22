@@ -22,9 +22,13 @@ struct Opportunity2: Identifiable, Equatable{
 
 struct FeedMyStarvingChildrenView : View{
     
-    let opportunities = [
+    static func contains(name: String) -> Bool {
+            return opportunities.contains { $0.opportunityName == name }
+    }
+    
+    static let opportunities = [
         
-                        Opportunity2(opportunityName:"FMSC MobilePack", description: "Seeking volunteers to measure and pack dry meals, such as rice, soy, dried vegetables, and vitamins. This opportunitiy takes just two hours of your time!\n\nLocation: Multiple locations, register to find all locations.\n\nTimes: Multiple times, register to view all times.\n\nAge: 5+"),
+            Opportunity2(opportunityName:"FMSC MobilePack", description: "Seeking volunteers to measure and pack dry meals, such as rice, soy, dried vegetables, and vitamins. This opportunitiy takes just two hours of your time!\n\nLocation: Multiple locations, register to find all locations.\n\nTimes: Multiple times, register to view all times.\n\nAge: 5+"),
               
     ]
                         
@@ -51,7 +55,7 @@ struct FeedMyStarvingChildrenView : View{
                     
                     ScrollView{
                         VStack(alignment: .leading, spacing: 10){
-                            ForEach(opportunities) { opportunity in
+                            ForEach(FeedMyStarvingChildrenView.opportunities) { opportunity in
                                 Button(action: {
                                     selectedItem = opportunity
                                 }) {

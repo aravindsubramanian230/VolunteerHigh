@@ -38,7 +38,13 @@ struct WelcomePage: View {
                         .fontWeight(.semibold)
                         .padding(.top)
 
-                    NavigationLink(value: Navigation.features) {
+                    NavigationLink {
+                        #if os(iOS)
+                        FeaturesPage()
+                        #else
+                        MainScreen()
+                        #endif
+                    } label: {
                         Text("Next")
                             .font(.headline)
                             .frame(maxWidth: .infinity)
@@ -67,7 +73,7 @@ struct WelcomePage: View {
                     #endif
 
                 case .handsOn:
-                    HandsOnGreaterPhoenix()
+                    HandsOnGreaterPhoenixView()
                 }
             }
         }

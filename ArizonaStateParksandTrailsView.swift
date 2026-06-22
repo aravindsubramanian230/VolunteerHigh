@@ -22,7 +22,12 @@ struct Opportunity7: Identifiable, Equatable{
 
 struct ArizonaStateParksandTrailsView : View{
     
-    let opportunities = [
+    static func contains(name: String) -> Bool {
+            return opportunities.contains { $0.opportunityName == name }
+    }
+    
+    
+    static let opportunities = [
         
                     `Opportunity7(opportunityName:"Fort Verde State Historic Park", description: "Seeking volunteers for the following positions:\n\n•Special Event Ambassador: Assist with various event duties throughout the year during many fun events.\n\n•Front Desk/Visitor Services - Greet park visitors at the park's first point of contact and collect park entry fees, assist in the Visitor Center with retail sales, and provide general park information.\n\n•Interpretive Services - Assist park staff in communicating information relating to the history of Fort Verde State Historic Park, the town of Camp Verde, and surrounding areas."),
                         
@@ -71,7 +76,7 @@ struct ArizonaStateParksandTrailsView : View{
                     
                     ScrollView{
                         VStack(alignment: .leading, spacing: 10){
-                            ForEach(opportunities) { opportunity in
+                            ForEach(ArizonaStateParksandTrailsView.opportunities) { opportunity in
                                 Button(action: {
                                     selectedItem = opportunity
                                 }) {

@@ -25,7 +25,11 @@ struct Opportunity3: Identifiable, Equatable{
 
 struct JuniorAchievementOfArizonaView : View{
     
-    let opportunities = [
+    static func contains(name: String) -> Bool {
+            return opportunities.contains { $0.opportunityName == name }
+    }
+    
+    static let opportunities = [
         
         Opportunity3(opportunityName:"Administrative Tasks-Tempe Office", description: "Help Junior Achievement with various tasks while helping students. This opportunitiy requires a positive attitude and good attention. \n\nDates: Thursdays, but contact taylors@jaaz.org in order to reschedule if needed.\n\nTime: 2:00 PM - 4:00 PM, but contact taylors@jaaz.org to reschedule if needed. \n\nAges: Any age can generally volunteer, but contact taylors@jaaz.org to confirm. \n\n\nLocation:\nJunior Achievement Tempe Office\n636 W. Southern Ave., Tempe, AZ 85282"),
         
@@ -63,7 +67,7 @@ struct JuniorAchievementOfArizonaView : View{
                     
                     ScrollView{
                         VStack(alignment: .leading, spacing: 10){
-                            ForEach(opportunities) { opportunity in
+                            ForEach(JuniorAchievementOfArizonaView.opportunities) { opportunity in
                                 Button(action: {
                                     selectedItem = opportunity
                                 }) {

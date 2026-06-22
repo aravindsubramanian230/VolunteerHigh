@@ -20,9 +20,15 @@ struct Opportunity: Identifiable, Equatable{
 
 
 
-struct HandsOnGreaterPhoenix : View{
     
-    let opportunities = [
+struct HandsOnGreaterPhoenixView: View {
+    
+    
+    static func contains(name: String) -> Bool {
+            return opportunities.contains { $0.opportunityName == name }
+        }
+    
+     static let opportunities = [
         
                         Opportunity(opportunityName:"TopGolf Competition - Gilbert", description: "Volunteers are needed for event support.\nIn addition, cheer and support the athletes at the Gilbert TopGolf Competition! \n\n\n" + "Time: 8:45 AM- 1:00 PM\n\n" + "Date: Saturday, August 1, 2026" + "\n\nLocation: 1689 S Santan Village Pkwy, Gilbert, AZ 85295" + "\n\nAge: 8+" + "\n\nInterests: Sports & Recreation"),
                          
@@ -68,13 +74,14 @@ struct HandsOnGreaterPhoenix : View{
             
             HStack(alignment: .top, spacing: 0) {
                 VStack(alignment: .leading, spacing: 12){
-                    Text("Opportunities Near You  \(                    Image(systemName: "mappin.and.ellipse"))")                        .font(.title2)
-                                .foregroundStyle(Color.blue.gradient)
+                    Text("Opportunities Near You  \( Image(systemName: "mappin.and.ellipse"))")
+                        .font(.title2)
+                        .foregroundStyle(Color.blue.gradient)
                         
                     
                     ScrollView{
                         VStack(alignment: .leading, spacing: 10){
-                            ForEach(opportunities) { opportunity in
+                            ForEach(HandsOnGreaterPhoenixView.opportunities) { opportunity in
                                 Button(action: {
                                     selectedItem = opportunity
                                 }) {
@@ -135,7 +142,7 @@ struct HandsOnGreaterPhoenix : View{
             
             
 #Preview {
-    HandsOnGreaterPhoenix()
+    HandsOnGreaterPhoenixView()
 }
 
 

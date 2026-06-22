@@ -22,10 +22,15 @@ struct Opportunity5: Identifiable, Equatable{
 
 struct BureauOfLandManagementView : View{
     
-    let opportunities = [
+    
+    static func contains(name: String) -> Bool {
+            return opportunities.contains { $0.opportunityName == name }
+    }
+    
+    static let opportunities = [
         
-                        Opportunity5(opportunityName:"Preserving History: A Freedom 250 Volunteer Day", description: "Join the Bureau of Land Management's Klamath Falls Field Office to take part in hands-on projects that support future generations.\n\nVolunteers are requested to help remove invasive weeds to help the wetland ecosystem.\n\nThe BLM will provide tools and supplies, though volunteers are still encouraged to bring lunch, water, hats, gloves, sturdy shoes, long-sleeved clothing, and a camera to capture the experience!\n\nDate: June 20, 2026\n\nTime: 10 AM - 2 PM\n\nLocation: Wood River Wetland")
-              
+        Opportunity5(opportunityName:"Preserving History: A Freedom 250 Volunteer Day", description: "Join the Bureau of Land Management's Klamath Falls Field Office to take part in hands-on projects that support future generations.\n\nVolunteers are requested to help remove invasive weeds to help the wetland ecosystem.\n\nThe BLM will provide tools and supplies, though volunteers are still encouraged to bring lunch, water, hats, gloves, sturdy shoes, long-sleeved clothing, and a camera to capture the experience!\n\nDate: June 20, 2026\n\nTime: 10 AM - 2 PM\n\nLocation: Wood River Wetland")
+
     ]
                         
     @State private var selectedItem: Opportunity5?
@@ -51,7 +56,7 @@ struct BureauOfLandManagementView : View{
                     
                     ScrollView{
                         VStack(alignment: .leading, spacing: 10){
-                            ForEach(opportunities) { opportunity in
+                            ForEach(BureauOfLandManagementView.opportunities) { opportunity in
                                 Button(action: {
                                     selectedItem = opportunity
                                 }) {

@@ -22,7 +22,11 @@ struct Opportunity6: Identifiable, Equatable{
 
 struct AZSustainabilityAllianceView : View{
     
-    let opportunities = [
+    static func contains(name: String) -> Bool {
+            return opportunities.contains { $0.opportunityName == name }
+    }
+    
+    static let opportunities = [
         
                         Opportunity6(opportunityName:"", description: ""),
               
@@ -51,7 +55,7 @@ struct AZSustainabilityAllianceView : View{
                     
                     ScrollView{
                         VStack(alignment: .leading, spacing: 10){
-                            ForEach(opportunities) { opportunity in
+                            ForEach(AZSustainabilityAllianceView.opportunities) { opportunity in
                                 Button(action: {
                                     selectedItem = opportunity
                                 }) {

@@ -22,7 +22,11 @@ struct Opportunity8: Identifiable, Equatable{
 
 struct LostOurHomesPetRescueView : View{
     
-    let opportunities = [
+    static func contains(name: String) -> Bool {
+            return opportunities.contains { $0.opportunityName == name }
+    }
+    
+    static let opportunities = [
         Opportunity8(opportunityName: "Shadow Shift", description: "This opportunity is mainly for new volunteers at Lost Our Homes Pet Rescue.\n\nDuring this opportunitiy, you will tour the Lost Our Homes Facility go over proper Shelter Care, procedures, and other volunteer growth opportunities. After this opportunitiy, you will not only be confident and ready, but will also be eligible for independent Shelter Care shifts and more!\n\nTo proceed with this opportunity, specific orientations are needed. \n\n\nAge: 8+ \nThe minimum age to volunteer for this opportunitiy is 8, however, anyone 8-15 require a parent/guardian. Ages 16-17 can volunteer without a parent, but require a parental waiver. Anyone above the age of 18 can volunteer alone.\n\n\nDates and Times: There are numerous dates and times to volunteer for this opportunitiy. Each session is 2 hours long. Visit Lost Our Homes Pet Rescue to learn more information.\n\n\nLocation: \n2323 S Hardy Dr \nTempe, AZ  85282"),
 
         Opportunity8(opportunityName:"Shelter Care", description: "Shelter Care is a wonderful opportunity to help pets in need." +  "\n\n" + "Volunteers are requeted for the following: \n\n•Laundry and dishes \n\n•Cleaning kennels \n\n•Logging donations, \n\n•Sweeping and mopping \n\n•Restocking and organizing supplies\n\n•Other special projects. \n\nThis opportunity is VERY family friendly and wonderful for animal lovers. \n\nTo proceed with this opportunity, specific orientations are needed. \n\n\nAge: 8+ \nThe minimum age to volunteer for this opportunitiy is 8, however, anyone 8-15 require a parent/guardian. Ages 16-17 can volunteer without a parent, but require a parental waiver. Anyone above the age of 18 can volunteer alone.\n\n\nDates and Times: There are numerous dates and times to volunteer for this opportunitiy. Each session is 2 hours long. Visit Lost Our Homes Pet Rescue to learn more information.\n\n\nLocation: \n2323 S Hardy Dr \nTempe, AZ  85282"),
@@ -52,7 +56,7 @@ struct LostOurHomesPetRescueView : View{
                     
                     ScrollView{
                         VStack(alignment: .leading, spacing: 10){
-                            ForEach(opportunities) { opportunity in
+                            ForEach(LostOurHomesPetRescueView.opportunities) { opportunity in
                                 Button(action: {
                                     selectedItem = opportunity
                                 }) {

@@ -22,7 +22,11 @@ struct Opportunity4: Identifiable, Equatable{
 
 struct CityOfFlagstaffView : View{
     
-    let opportunities = [
+    static func contains(name: String) -> Bool {
+            return opportunities.contains { $0.opportunityName == name }
+    }
+    
+    static let opportunities = [
         
         Opportunity4(opportunityName:"Full Moon Bike Ride/Hike!", description: "Enjoy outdoor activites? Then this opportunitiy is for you! Enjoy a night out walking on a trail or out and back, and watch the full moon rise. You can meet new people, bike, and hike during this event. You will go on the Karen Cooper FUTS trail, which lasts about 6 miles.\n\n\nAge: 0+\nAny age can participate.\n\nLocation: Frances Short Pond\n\nDate: July 29, 2026\n\nTime: 7:30 PM - 9:30 PM"),
         
@@ -62,7 +66,7 @@ struct CityOfFlagstaffView : View{
                     
                     ScrollView{
                         VStack(alignment: .leading, spacing: 10){
-                            ForEach(opportunities) { opportunity in
+                            ForEach(CityOfFlagstaffView.opportunities) { opportunity in
                                 Button(action: {
                                     selectedItem = opportunity
                                 }) {
