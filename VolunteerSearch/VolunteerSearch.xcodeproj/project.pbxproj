@@ -33,6 +33,7 @@
 		C313C7382FB820E10090D927 /* VolunteerSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolunteerSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C313C7452FB820E20090D927 /* VolunteerSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolunteerSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C313C74F2FB820E20090D927 /* VolunteerSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolunteerSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C387AFF02FE403E200284D73 /* VolunteerSearch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = VolunteerSearch.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -40,6 +41,9 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
+				VolunteerSearch/VolunteerSearchTests/VolunteerSearchTests.swift,
+				VolunteerSearch/VolunteerSearchUITests/VolunteerSearchUITests.swift,
+				VolunteerSearch/VolunteerSearchUITests/VolunteerSearchUITestsLaunchTests.swift,
 			);
 			target = C313C7372FB820E10090D927 /* VolunteerSearch */;
 		};
@@ -110,6 +114,13 @@
 				C313C7382FB820E10090D927 /* VolunteerSearch.app */,
 				C313C7452FB820E20090D927 /* VolunteerSearchTests.xctest */,
 				C313C74F2FB820E20090D927 /* VolunteerSearchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C387B0292FE405EC00284D73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -227,6 +238,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C313C7392FB820E10090D927 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C387B0292FE405EC00284D73 /* Products */;
+					ProjectRef = C387AFF02FE403E200284D73 /* VolunteerSearch.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C313C7372FB820E10090D927 /* VolunteerSearch */,
@@ -424,7 +441,7 @@
 				DEVELOPMENT_TEAM = 478BZ8QL92;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = YES;
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
@@ -438,7 +455,6 @@
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VolunteerSearch/Info.plist;
-				INFOPLIST_KEY_LSApplicationCategoryType = "PlayfairDisplay-VariableFont_wght.ttf";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -480,7 +496,7 @@
 				DEVELOPMENT_TEAM = 478BZ8QL92;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = YES;
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
@@ -494,7 +510,6 @@
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VolunteerSearch/Info.plist;
-				INFOPLIST_KEY_LSApplicationCategoryType = "PlayfairDisplay-VariableFont_wght.ttf";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
