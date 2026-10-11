@@ -53,7 +53,7 @@ flowchart TD
 
 VolunteerHigh is an initiative focused on improving community service access to high school students.
 
-Current Milestones:
+**Current Milestones:**
 - 8 Partnered Organizations across Arizona
 - Featured by Scottsdale Progress (August 2026):[ https://www.scottsdale.org/neighbors/scottsdale-teen-builds-volunteer-path-for-peers/article_3eddebb0-a1e5-4737-9b39-3e2d3e608d8b.html](url)
 - Featured by FOX 10 Phoenix (September 2026): [https://www.fox10phoenix.com/video/fmc-26na3obmes7ekihl
