@@ -15,23 +15,23 @@ To make the platform more accessible, the project was expanded into a web applic
 
 ## Features
 
--**Volunteer Opportunity Discovery:** Browse through different opportunities from various nonprofit organizations across the valley.
--**Opportunity Details:** Access essential information about an opportunity, such as its description, dates, age, and links to learn about these opportunities.
--**Updated Opportunity List:** Uses a Python Web scraper to keep our platform updated.
--**Cross-Platform:** Developed as a native macOS application using SwiftUI, with a web version built using Claude Code and React.
+- **Volunteer Opportunity Discovery:** Browse through different opportunities from various nonprofit organizations across the valley.
+- **Opportunity Details:** Access essential information about an opportunity, such as its description, dates, age, and links to learn about these opportunities.
+- **Updated Opportunity List:** Uses a Python Web scraper to keep our platform updated.
+- **Cross-Platform:** Developed as a native macOS application using SwiftUI, with a web version built using Claude Code and React.
 
 ## How it Works
--**1) Opportunity Collection:**
+- **1) Opportunity Collection:**
 A Python Web Scraper finds volunteer opportunities across supported organizations daily.
--**2) Data Processing:**
+- **2) Data Processing:**
 The colelcted information is then organized into JSON data containing opportunity details.
--**3) Opportunity Display:**
+- **3) Opportunity Display:**
 The application displays available opportunities, allowing students to browse organizations and discover opportunities.
--**4) Deployment:**
+- **4) Deployment:**
 The web application is deployed using Firebase Hosting.
 
 
-``mermaid
+```mermaid
 
 flowchart TD
   A["Partner Nonprofit Organizations"]
@@ -47,8 +47,9 @@ flowchart TD
   D --> E
   E --> F
   
+```
 
-##Impact
+## Impact
 
 VolunteerHigh is an initiative focused on improving community service access to high school students.
 
@@ -58,6 +59,6 @@ Current Milestones:
 -Featured by FOX 10 Phoenix (September 2026): [https://www.fox10phoenix.com/video/fmc-26na3obmes7ekihl
 ](url)
 
-##Our Mission
+## Our Mission
 
 Making community service easier to discover and accessible for high school students across Arizona.
