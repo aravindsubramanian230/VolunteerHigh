@@ -552,12 +552,12 @@ struct MainScreen: View {
                         
                         
                         Group{
-                            Color(red: 253/255, green: 251/255, blue: 245/255)
+                            Color(red: 4/255, green: 28/255, blue: 69/255)
                             
                             VStack(alignment: .leading, spacing: 25){
                                 
                                 Text("Maps")
-                                    .foregroundStyle(Color(red: 255/255, green: 255/255, blue: 255/255))
+                                    .foregroundStyle(Color(red: 255/255, green: 204/255, blue: 77/255))
                                 
                                     .font(.custom("CormorantGaramond-Regular", size: 40))
                                 
@@ -567,8 +567,14 @@ struct MainScreen: View {
                                 
                                     .padding(.leading, -3)
                                 
-                                Text("Want to find the nearest opportunity, and fast? Maps is our location-based volunteer discovery tool that helps\nyou to find the nearest opportunity. By displaying nearby opportunities on an interactive map, Maps makes it easy\nto explore opportunities based on your current location and identify places where you can get involved. Maps simplifies\nthe process of finding local volunteer opportunities, helping you connect with organizations in your community and make a\nmeaningful impact close to your home, while earning verified hours.")
-                                    .foregroundStyle(Color(red: 255/255, green: 255/255, blue: 114/255))
+                                Text(Want to find the nearest opportunity, and fast? Maps is our location-based volunteer discovery tool that helps
+                                     you to find the nearest opportunity. By displaying nearby opportunities on an interactive map, Maps makes it easy
+                                     to explore opportunities based on your current location and identify places where you can get involved. Maps simplifies
+                                     the process of finding local volunteer opportunities, helping you connect with organizations in your community and make a
+                                     meaningful impact close to your home, while earning verified hours.
+
+")
+                                    .foregroundStyle(Color(red: 244/255, green: 239/255, blue: 224/255))
                                     .multilineTextAlignment(.leading)
                                     .lineSpacing(6)
                                     .padding(.bottom, 13.5)
@@ -580,13 +586,13 @@ struct MainScreen: View {
                                 } label: {
                                     Text("Use Maps")
                                         .font(.system(size: 20))
-                                        .foregroundStyle(Color(red: 255/255, green: 255/255, blue: 255/255))
+                                        .foregroundStyle(Color(red: 255/255, green: 204/255, blue: 77/255))
                                         .padding(.vertical, 45)
                                         .padding(.horizontal, 175)
                                     //.background(isClicked ? Color(red: 219/255, green: 231/255, blue: 243/255) : Color.clear)
                                         .overlay(
                                             RoundedRectangle(cornerRadius: 8)
-                                                .stroke(Color(red: 255/255, green: 255/255, blue: 255/255), lineWidth: 1.5)
+                                                .stroke(Color(red: 255/255, green: 204/255, blue: 77/255), lineWidth: 1.5)
                                         )
                                 }
                                 .buttonStyle(.plain)
@@ -610,7 +616,7 @@ struct MainScreen: View {
                                 content.opacity(phase.isIdentity ? 1: 0).offset(y: phase.isIdentity ? 0 : 50)
                             }
                             
-                            .background(Color(red: 0/255, green: 0/255, blue: 0/255)) //DON
+                            .background(Color(red: 4/255, green: 28/255, blue: 69/255)) //DON
                         }
                         
                         

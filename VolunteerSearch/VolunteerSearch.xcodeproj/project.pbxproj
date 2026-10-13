@@ -41,9 +41,6 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
-				VolunteerSearch/VolunteerSearchTests/VolunteerSearchTests.swift,
-				VolunteerSearch/VolunteerSearchUITests/VolunteerSearchUITests.swift,
-				VolunteerSearch/VolunteerSearchUITests/VolunteerSearchUITestsLaunchTests.swift,
 			);
 			target = C313C7372FB820E10090D927 /* VolunteerSearch */;
 		};
@@ -105,6 +102,7 @@
 				C313C7482FB820E20090D927 /* VolunteerSearchTests */,
 				C313C7522FB820E20090D927 /* VolunteerSearchUITests */,
 				C313C7392FB820E10090D927 /* Products */,
+				C371CDCB307ACEC90064B734 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,6 +114,14 @@
 				C313C74F2FB820E20090D927 /* VolunteerSearchUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C371CDCB307ACEC90064B734 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				C387AFF02FE403E200284D73 /* VolunteerSearch.xcodeproj */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 		C387B0292FE405EC00284D73 /* Products */ = {
@@ -454,7 +460,6 @@
 				ENABLE_RESOURCE_ACCESS_USB = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = VolunteerSearch/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -509,7 +514,6 @@
 				ENABLE_RESOURCE_ACCESS_USB = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = VolunteerSearch/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
