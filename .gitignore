@@ -1,0 +1,10 @@
+.DS_Store
+**/xcuserdata/
+**/DerivedData/
+.env
+.env.*
+
+**/.DS_Store
+**/xcuserdata/
+**/DerivedData/
+**/node_modules/

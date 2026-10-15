@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C32C946B3080AB3E003373E2 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C94513080AB3E003373E2 /* About.swift */; };
+		C32C946C3080AB3E003373E2 /* ArizonaStateParksandTrailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C94523080AB3E003373E2 /* ArizonaStateParksandTrailsView.swift */; };
+		C32C946D3080AB3E003373E2 /* AZSustainabilityAllianceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C94543080AB3E003373E2 /* AZSustainabilityAllianceView.swift */; };
+		C32C946E3080AB3E003373E2 /* BureauOfLandManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C94553080AB3E003373E2 /* BureauOfLandManagementView.swift */; };
+		C32C946F3080AB3E003373E2 /* CityOfFlagstaffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C94563080AB3E003373E2 /* CityOfFlagstaffView.swift */; };
+		C32C94703080AB3E003373E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C94573080AB3E003373E2 /* ContentView.swift */; };
+		C32C94713080AB3E003373E2 /* FAQ's.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C94593080AB3E003373E2 /* FAQ's.swift */; };
+		C32C94723080AB3E003373E2 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C945A3080AB3E003373E2 /* FeatureCard.swift */; };
+		C32C94733080AB3E003373E2 /* FeaturesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C945B3080AB3E003373E2 /* FeaturesPage.swift */; };
+		C32C94743080AB3E003373E2 /* FeedMyStarvingChildrenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C945C3080AB3E003373E2 /* FeedMyStarvingChildrenView.swift */; };
+		C32C94753080AB3E003373E2 /* HandsOnGreaterPhoenixScraper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C945F3080AB3E003373E2 /* HandsOnGreaterPhoenixScraper.swift */; };
+		C32C94763080AB3E003373E2 /* HandsOnGreaterPhoenixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C94603080AB3E003373E2 /* HandsOnGreaterPhoenixView.swift */; };
+		C32C94773080AB3E003373E2 /* JuniorAchievementOfArizonaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C94613080AB3E003373E2 /* JuniorAchievementOfArizonaView.swift */; };
+		C32C94783080AB3E003373E2 /* LostOurHomesPetRescueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C94623080AB3E003373E2 /* LostOurHomesPetRescueView.swift */; };
+		C32C94793080AB3E003373E2 /* Maps.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C94633080AB3E003373E2 /* Maps.swift */; };
+		C32C947A3080AB3E003373E2 /* Quest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C94663080AB3E003373E2 /* Quest.swift */; };
+		C32C947B3080AB3E003373E2 /* QuestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C94673080AB3E003373E2 /* QuestView.swift */; };
+		C32C947C3080AB3E003373E2 /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C94693080AB3E003373E2 /* WelcomePage.swift */; };
+		C32C947D3080AB3E003373E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32C94533080AB3E003373E2 /* Assets.xcassets */; };
+		C32C947E3080AB3E003373E2 /* CormorantGaramond-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C32C94583080AB3E003373E2 /* CormorantGaramond-Regular.ttf */; };
+		C32C947F3080AB3E003373E2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C32C945D3080AB3E003373E2 /* GoogleService-Info.plist */; };
+		C32C94803080AB3E003373E2 /* HandsOnGreaterPhoenix.json in Resources */ = {isa = PBXBuildFile; fileRef = C32C945E3080AB3E003373E2 /* HandsOnGreaterPhoenix.json */; };
+		C32C94813080AB3E003373E2 /* NotoSans-VariableFont_wdth,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C32C94643080AB3E003373E2 /* NotoSans-VariableFont_wdth,wght.ttf */; };
+		C32C94823080AB3E003373E2 /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C32C94653080AB3E003373E2 /* PlayfairDisplay-Regular.ttf */; };
+		C3D05EC42FE0E931008B8487 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = C3D05EC32FE0E931008B8487 /* GoogleGenerativeAI */; };
+		C3D05EC82FE0F21B008B8487 /* FirebaseAI in Frameworks */ = {isa = PBXBuildFile; productRef = C3D05EC72FE0F21B008B8487 /* FirebaseAI */; };
+		C3D05ECA2FE0F21B008B8487 /* FirebaseAILogic in Frameworks */ = {isa = PBXBuildFile; productRef = C3D05EC92FE0F21B008B8487 /* FirebaseAILogic */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C313C7382FB820E10090D927 /* VolunteerHigh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolunteerHigh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32C94513080AB3E003373E2 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		C32C94523080AB3E003373E2 /* ArizonaStateParksandTrailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArizonaStateParksandTrailsView.swift; sourceTree = "<group>"; };
+		C32C94533080AB3E003373E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C32C94543080AB3E003373E2 /* AZSustainabilityAllianceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZSustainabilityAllianceView.swift; sourceTree = "<group>"; };
+		C32C94553080AB3E003373E2 /* BureauOfLandManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BureauOfLandManagementView.swift; sourceTree = "<group>"; };
+		C32C94563080AB3E003373E2 /* CityOfFlagstaffView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityOfFlagstaffView.swift; sourceTree = "<group>"; };
+		C32C94573080AB3E003373E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C32C94583080AB3E003373E2 /* CormorantGaramond-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CormorantGaramond-Regular.ttf"; sourceTree = "<group>"; };
+		C32C94593080AB3E003373E2 /* FAQ's.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FAQ's.swift"; sourceTree = "<group>"; };
+		C32C945A3080AB3E003373E2 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		C32C945B3080AB3E003373E2 /* FeaturesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesPage.swift; sourceTree = "<group>"; };
+		C32C945C3080AB3E003373E2 /* FeedMyStarvingChildrenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedMyStarvingChildrenView.swift; sourceTree = "<group>"; };
+		C32C945D3080AB3E003373E2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C32C945E3080AB3E003373E2 /* HandsOnGreaterPhoenix.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = HandsOnGreaterPhoenix.json; sourceTree = "<group>"; };
+		C32C945F3080AB3E003373E2 /* HandsOnGreaterPhoenixScraper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsOnGreaterPhoenixScraper.swift; sourceTree = "<group>"; };
+		C32C94603080AB3E003373E2 /* HandsOnGreaterPhoenixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsOnGreaterPhoenixView.swift; sourceTree = "<group>"; };
+		C32C94613080AB3E003373E2 /* JuniorAchievementOfArizonaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuniorAchievementOfArizonaView.swift; sourceTree = "<group>"; };
+		C32C94623080AB3E003373E2 /* LostOurHomesPetRescueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostOurHomesPetRescueView.swift; sourceTree = "<group>"; };
+		C32C94633080AB3E003373E2 /* Maps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maps.swift; sourceTree = "<group>"; };
+		C32C94643080AB3E003373E2 /* NotoSans-VariableFont_wdth,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-VariableFont_wdth,wght.ttf"; sourceTree = "<group>"; };
+		C32C94653080AB3E003373E2 /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		C32C94663080AB3E003373E2 /* Quest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quest.swift; sourceTree = "<group>"; };
+		C32C94673080AB3E003373E2 /* QuestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestView.swift; sourceTree = "<group>"; };
+		C32C94683080AB3E003373E2 /* VolunteerHigh.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VolunteerHigh.entitlements; sourceTree = "<group>"; };
+		C32C94693080AB3E003373E2 /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C313C7352FB820E10090D927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D05ECA2FE0F21B008B8487 /* FirebaseAILogic in Frameworks */,
+				C3D05EC42FE0E931008B8487 /* GoogleGenerativeAI in Frameworks */,
+				C3D05EC82FE0F21B008B8487 /* FirebaseAI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C313C72F2FB820E00090D927 = {
+			isa = PBXGroup;
+			children = (
+				C32C946A3080AB3E003373E2 /* VolunteerHigh */,
+				C313C7392FB820E10090D927 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C313C7392FB820E10090D927 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C313C7382FB820E10090D927 /* VolunteerHigh.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C32C946A3080AB3E003373E2 /* VolunteerHigh */ = {
+			isa = PBXGroup;
+			children = (
+				C32C94883080AC6F003373E2 /* Resources */,
+				C32C94873080AC57003373E2 /* Scraper */,
+				C32C94863080AC35003373E2 /* Components */,
+				C32C94853080ABEE003373E2 /* Views */,
+				C32C94843080ABC0003373E2 /* App */,
+				C32C94833080AB6D003373E2 /* Organizations */,
+			);
+			path = VolunteerHigh;
+			sourceTree = "<group>";
+		};
+		C32C94833080AB6D003373E2 /* Organizations */ = {
+			isa = PBXGroup;
+			children = (
+				C32C94523080AB3E003373E2 /* ArizonaStateParksandTrailsView.swift */,
+				C32C94543080AB3E003373E2 /* AZSustainabilityAllianceView.swift */,
+				C32C94553080AB3E003373E2 /* BureauOfLandManagementView.swift */,
+				C32C94563080AB3E003373E2 /* CityOfFlagstaffView.swift */,
+				C32C945C3080AB3E003373E2 /* FeedMyStarvingChildrenView.swift */,
+				C32C94603080AB3E003373E2 /* HandsOnGreaterPhoenixView.swift */,
+				C32C94613080AB3E003373E2 /* JuniorAchievementOfArizonaView.swift */,
+				C32C94623080AB3E003373E2 /* LostOurHomesPetRescueView.swift */,
+			);
+			path = Organizations;
+			sourceTree = "<group>";
+		};
+		C32C94843080ABC0003373E2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C32C94573080AB3E003373E2 /* ContentView.swift */,
+				C32C94683080AB3E003373E2 /* VolunteerHigh.entitlements */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C32C94853080ABEE003373E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C32C94513080AB3E003373E2 /* About.swift */,
+				C32C94593080AB3E003373E2 /* FAQ's.swift */,
+				C32C945B3080AB3E003373E2 /* FeaturesPage.swift */,
+				C32C94633080AB3E003373E2 /* Maps.swift */,
+				C32C94673080AB3E003373E2 /* QuestView.swift */,
+				C32C94693080AB3E003373E2 /* WelcomePage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C32C94863080AC35003373E2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C32C945A3080AB3E003373E2 /* FeatureCard.swift */,
+				C32C94663080AB3E003373E2 /* Quest.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C32C94873080AC57003373E2 /* Scraper */ = {
+			isa = PBXGroup;
+			children = (
+				C32C945E3080AB3E003373E2 /* HandsOnGreaterPhoenix.json */,
+				C32C945F3080AB3E003373E2 /* HandsOnGreaterPhoenixScraper.swift */,
+			);
+			path = Scraper;
+			sourceTree = "<group>";
+		};
+		C32C94883080AC6F003373E2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C32C94893080AC84003373E2 /* Fonts */,
+				C32C94533080AB3E003373E2 /* Assets.xcassets */,
+				C32C945D3080AB3E003373E2 /* GoogleService-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C32C94893080AC84003373E2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C32C94583080AB3E003373E2 /* CormorantGaramond-Regular.ttf */,
+				C32C94643080AB3E003373E2 /* NotoSans-VariableFont_wdth,wght.ttf */,
+				C32C94653080AB3E003373E2 /* PlayfairDisplay-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C313C7372FB820E10090D927 /* VolunteerHigh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C313C7592FB820E20090D927 /* Build configuration list for PBXNativeTarget "VolunteerHigh" */;
+			buildPhases = (
+				C313C7342FB820E10090D927 /* Sources */,
+				C313C7352FB820E10090D927 /* Frameworks */,
+				C313C7362FB820E10090D927 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VolunteerHigh;
+			packageProductDependencies = (
+				C3D05EC32FE0E931008B8487 /* GoogleGenerativeAI */,
+				C3D05EC72FE0F21B008B8487 /* FirebaseAI */,
+				C3D05EC92FE0F21B008B8487 /* FirebaseAILogic */,
+			);
+			productName = VolunteerSearch;
+			productReference = C313C7382FB820E10090D927 /* VolunteerHigh.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C313C7302FB820E00090D927 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					C313C7372FB820E10090D927 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+				};
+			};
+			buildConfigurationList = C313C7332FB820E00090D927 /* Build configuration list for PBXProject "VolunteerHigh" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C313C72F2FB820E00090D927;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C3D05EC22FE0E931008B8487 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+				C3D05EC62FE0F21B008B8487 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C313C7392FB820E10090D927 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C313C7372FB820E10090D927 /* VolunteerHigh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C313C7362FB820E10090D927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32C947D3080AB3E003373E2 /* Assets.xcassets in Resources */,
+				C32C947E3080AB3E003373E2 /* CormorantGaramond-Regular.ttf in Resources */,
+				C32C947F3080AB3E003373E2 /* GoogleService-Info.plist in Resources */,
+				C32C94803080AB3E003373E2 /* HandsOnGreaterPhoenix.json in Resources */,
+				C32C94813080AB3E003373E2 /* NotoSans-VariableFont_wdth,wght.ttf in Resources */,
+				C32C94823080AB3E003373E2 /* PlayfairDisplay-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C313C7342FB820E10090D927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32C946B3080AB3E003373E2 /* About.swift in Sources */,
+				C32C946C3080AB3E003373E2 /* ArizonaStateParksandTrailsView.swift in Sources */,
+				C32C946D3080AB3E003373E2 /* AZSustainabilityAllianceView.swift in Sources */,
+				C32C946E3080AB3E003373E2 /* BureauOfLandManagementView.swift in Sources */,
+				C32C946F3080AB3E003373E2 /* CityOfFlagstaffView.swift in Sources */,
+				C32C94703080AB3E003373E2 /* ContentView.swift in Sources */,
+				C32C94713080AB3E003373E2 /* FAQ's.swift in Sources */,
+				C32C94723080AB3E003373E2 /* FeatureCard.swift in Sources */,
+				C32C94733080AB3E003373E2 /* FeaturesPage.swift in Sources */,
+				C32C94743080AB3E003373E2 /* FeedMyStarvingChildrenView.swift in Sources */,
+				C32C94753080AB3E003373E2 /* HandsOnGreaterPhoenixScraper.swift in Sources */,
+				C32C94763080AB3E003373E2 /* HandsOnGreaterPhoenixView.swift in Sources */,
+				C32C94773080AB3E003373E2 /* JuniorAchievementOfArizonaView.swift in Sources */,
+				C32C94783080AB3E003373E2 /* LostOurHomesPetRescueView.swift in Sources */,
+				C32C94793080AB3E003373E2 /* Maps.swift in Sources */,
+				C32C947A3080AB3E003373E2 /* Quest.swift in Sources */,
+				C32C947B3080AB3E003373E2 /* QuestView.swift in Sources */,
+				C32C947C3080AB3E003373E2 /* WelcomePage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C313C7572FB820E20090D927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 478BZ8QL92;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C313C7582FB820E20090D927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 478BZ8QL92;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C313C75A2FB820E20090D927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 478BZ8QL92;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = VolunteerHigh;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VolunteerSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Debug;
+		};
+		C313C75B2FB820E20090D927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 478BZ8QL92;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = VolunteerHigh;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VolunteerSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C313C7332FB820E00090D927 /* Build configuration list for PBXProject "VolunteerHigh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C313C7572FB820E20090D927 /* Debug */,
+				C313C7582FB820E20090D927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C313C7592FB820E20090D927 /* Build configuration list for PBXNativeTarget "VolunteerHigh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C313C75A2FB820E20090D927 /* Debug */,
+				C313C75B2FB820E20090D927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C3D05EC22FE0E931008B8487 /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.6;
+			};
+		};
+		C3D05EC62FE0F21B008B8487 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.14.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C3D05EC32FE0E931008B8487 /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3D05EC22FE0E931008B8487 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+		C3D05EC72FE0F21B008B8487 /* FirebaseAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3D05EC62FE0F21B008B8487 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAI;
+		};
+		C3D05EC92FE0F21B008B8487 /* FirebaseAILogic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3D05EC62FE0F21B008B8487 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAILogic;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C313C7302FB820E00090D927 /* Project object */;
+}
