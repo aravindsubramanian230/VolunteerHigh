@@ -228,7 +228,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C313C7332FB820E00090D927 /* Build configuration list for PBXProject "VolunteerSearch" */;
+			buildConfigurationList = C313C7332FB820E00090D927 /* Build configuration list for PBXProject "VolunteerHigh" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -460,6 +460,7 @@
 				ENABLE_RESOURCE_ACCESS_USB = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = VolunteerHigh;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -514,6 +515,7 @@
 				ENABLE_RESOURCE_ACCESS_USB = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = VolunteerHigh;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -650,7 +652,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C313C7332FB820E00090D927 /* Build configuration list for PBXProject "VolunteerSearch" */ = {
+		C313C7332FB820E00090D927 /* Build configuration list for PBXProject "VolunteerHigh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C313C7572FB820E20090D927 /* Debug */,
