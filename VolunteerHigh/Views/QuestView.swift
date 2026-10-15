@@ -22,12 +22,11 @@ struct ChatMessage: Identifiable, Equatable {
 
 
 
-
 struct QuestView: View {
     var model : GenerativeModel {
         let fileContents: String
         if let fileURL = Bundle.main.url(
-            forResource: "HandsOnGreaterPhoenixOpportunities",
+            forResource: "HandsOnGreaterPhoenix",
             withExtension: "json"
         ),
            let contents = try? String(contentsOf: fileURL, encoding: .utf8) {
@@ -41,12 +40,12 @@ struct QuestView: View {
             Here is the database of volunteer opportunities with full descriptions, locations, dates, and times: 
             
             Rules:
-            1. Greet the user warmly and request them to share their passion and location. (Note: The UI pre-populates this greeting).
-            2. Once provided, search the database to recommend the single best opportunity. Provide key details like dates and times.
+            1. Greet the user warmly and request them to share their passion or location. (Note: The UI pre-populates this greeting).
+            2. Once provided, search the entire database (all 8 organizations and their opportunities) to recommend the single best opportunity. Provide key details like dates , times, descriptions, and which organization they chose.
             3. The user can then ask follow-up questions (e.g. 'why?', 'tell me more', or details about the schedule). Answer them accurately.
             4. Keep answers conversational, warm, and breif.
             
-            
+            Only take opportunities from this project's database (Only from HandsOn Greater Phoenix, the City of Flagstaff, Arizona Sustainability Alliance, Arizona State Parks and Trails, Junior Achievement of Arizona, Feed My Starving Children, Bureau of Land Management Arizona, and Lost our Home Pet rescue). Make sure that you tell the user exactly which organziation the opportunity is from.
             """
         
         

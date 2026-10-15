@@ -390,10 +390,12 @@ struct Maps: View {
                     
                     Button("Find Nearest Opportunity") {
                         let req = MKLocalSearch.Request()
-                        req.naturalLanguageQuery = address
+                        req.naturalLanguageQuery = address + ", Arizona"
+                        req.resultTypes = [.pointOfInterest, .address]
                         
-                        MKLocalSearch(request: req).start { res, _ in
-                            guard let userItem = res?.mapItems.first else { return }
+                        MKLocalSearch(request: req).start { res, error in
+                            print("MAPKIT ERROR:", error?.localizedDescription ?? "None", "RESULTS:", res?.mapItems.count ?? 0)
+                            guard let userItem = res?.mapItems.first else { travelTime = "Address not found"; return }
                             let userCoord = userItem.location.coordinate
                             guard let closest = coordinates.min(by: {
                                 MKMapPoint($0.coordinate).distance(to: MKMapPoint(userCoord)) < MKMapPoint($1.coordinate).distance(to: MKMapPoint(userCoord))
